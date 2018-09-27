@@ -18,7 +18,7 @@ python-netfilterqueue: https://github.com/kti/python-netfilterqueue
 Clone this repository
 
 ``` shell
-git clone git@github.com:milesrichardson/docker-nfqueue-scapy.git
+git clone git@github.com:plutosherry/docker-nfqueue-scapy-zh.git
 ```
 
 Build the docker container. This will take a while because it includes the
