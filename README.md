@@ -1,15 +1,14 @@
 # docker-nfqueue-scapy
 
-Docker container with an example python script to listen for packets on
-a netfilter queue and manipulate them with scapy. You can listen on any queue number, and you can push packets into the queue from any iptables rule. 
-This container gives you a powerful prototyping and debugging tool for monitoring, manipulating, dropping, accepting, requeing, or forwarding network packets in python.
-You can read from a queue on the host with `--net=host --cap-add=NET_ADMIN`.
- Or, you can run it within another container's namespace to listen
-for packets on an nfqueue in that container's network namespace.
+带有一个示例Python脚本的侦听包的DOCKER容器
+一个NETFLASH队列，并用Saby操作它们。您可以侦听任何队列号，并且可以将分组从任何IPTABLE规则推送到队列中。
+这个容器为您提供了一个强大的原型和调试工具，用于监控、操作、删除、接受、请求或转发python中的网络数据包。
+您可以从主机上的队列中读取 `--net=host --cap-add=NET_ADMIN`.
+或者，您可以在另一个容器的命名空间中运行它来侦听，
+对于容器的网络命名空间中的NFQueice中的数据包。
 
-This container includes a full installation of scapy and python netfilter queue
-(nfqueue) bindings, and an example python script `nfqueue_listener.py` to
-print incoming packets on the queue.
+此容器包括SpAPI和Python NETFILE队列的完整安装
+（NFQueLe）绑定和一个Python脚本示例 `nfqueue_listener.py` 在队列上打印传入的数据包。
 
 scapy: https://github.com/secdev/scapy
 python-netfilterqueue: https://github.com/kti/python-netfilterqueue

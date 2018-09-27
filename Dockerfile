@@ -1,5 +1,5 @@
-FROM ubuntu:latest
-MAINTAINER milesrichardson@gmail.com
+FROM debian:latest
+MAINTAINER plutosherry@gmail.com
 
 # Install latest scapy (with all its dependencies)
 
