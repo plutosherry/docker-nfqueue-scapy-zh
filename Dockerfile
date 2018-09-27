@@ -1,5 +1,5 @@
-FROM debian:latest
-MAINTAINER plutosherry@gmail.com
+FROM raspbian:latest
+MAINTAINER plutosherry@hotmail.com
 
 # Install latest scapy (with all its dependencies)
 
